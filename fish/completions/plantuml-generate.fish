@@ -1,0 +1,1 @@
+complete -c plantuml-generate -a "(ls *.puml)" -d 'PlantUML source file'

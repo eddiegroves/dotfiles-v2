@@ -13,8 +13,10 @@ ln -s $EDDIE_CONFIG/.vimrc
 mkdir -p ~/.config/fish/functions
 cd ~/.config/fish/functions
 ln -s $EDDIE_CONFIG/fish/functions/confluence-upload-attachment.fish
+ln -s $EDDIE_CONFIG/fish/functions/plantuml-generate.fish
 
 mkdir -p ~/.config/fish/completions
 cd ~/.config/fish/completions
 ln -s $EDDIE_CONFIG/fish/completions/confluence-upload-attachment.fish
+ln -s $EDDIE_CONFIG/fish/completions/plantuml-generate.fish
 ```
