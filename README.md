@@ -9,7 +9,8 @@ git clone <path to this repo> $EDDIE_CONFIG
 ```sh
 cd ~
 ln -s $EDDIE_CONFIG/.vimrc
-ln -s $EDDIE_CONFIG/.spacemacs
+cd ~/.doom.d/
+ln -s $EDDIE_CONFIG/.doom.d/config.el
 
 mkdir -p ~/.config/fish/functions
 cd ~/.config/fish/functions
